@@ -1,0 +1,188 @@
+cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+cargo:rerun-if-env-changed=ZSTD_SYS_NO_HIDE_SYMBOLS
+cargo:rerun-if-env-changed=CC_FORCE_DISABLE
+CC_FORCE_DISABLE = None
+cargo:rerun-if-env-changed=CC_PREFER_CLANG_CL_OVER_MSVC
+CC_PREFER_CLANG_CL_OVER_MSVC = None
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VCToolsVersion
+VCToolsVersion = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\Web3\centralized-exchange\target\debug\deps;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\WSL\;C:\Users\jhavi\.cargo\bin;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\;C:\Users\jhavi\AppData\Local\Programs\Python\Launcher\;C:\Users\jhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\jhavi\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\jhavi\GitHubDesktop\bin;C:\Users\jhavi\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jhavi\AppData\Roaming\npm;;C:\Users\jhavi\.bun\bin;C:\Users\jhavi\AppData\Local\PowerToys\DSCModules\;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=EXTERNAL_INCLUDE
+cargo:rerun-if-env-changed=CL
+cargo:rerun-if-env-changed=_CL_
+cargo:rerun-if-env-changed=LIBPATH
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+CRATE_CC_NO_DEFAULTS = None
+CFLAGS = None
+HOST_CFLAGS = None
+CFLAGS_x86_64_pc_windows_msvc = None
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+CRATE_CC_NO_DEFAULTS = None
+CFLAGS = None
+HOST_CFLAGS = None
+CFLAGS_x86_64_pc_windows_msvc = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CRATE_CC_NO_DEFAULTS = None
+CFLAGS = None
+HOST_CFLAGS = None
+CFLAGS_x86_64_pc_windows_msvc = None
+CFLAGS_x86_64-pc-windows-msvc = None
+debug.c
+entropy_common.c
+fse_decompress.c
+error_private.c
+pool.c
+fse_compress.c
+threading.c
+zstd_common.c
+hist.c
+huf_compress.c
+zstd_compress.c
+zstd_compress_literals.c
+zstd_compress_superblock.c
+zstd_compress_sequences.c
+zstd_double_fast.c
+zstd_ldm.c
+zstd_fast.c
+zstd_lazy.c
+zstd_opt.c
+zstd_preSplit.c
+zstdmt_compress.c
+huf_decompress.c
+zstd_ddict.c
+zstd_decompress.c
+zstd_decompress_block.c
+cover.c
+divsufsort.c
+fastcover.c
+zdict.c
+zstd_v01.c
+zstd_v02.c
+zstd_v04.c
+zstd_v03.c
+zstd_v06.c
+zstd_v05.c
+zstd_v07.c
+CC_FORCE_DISABLE = None
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+CC_PREFER_CLANG_CL_OVER_MSVC = None
+VCINSTALLDIR = None
+VSTEL_MSBuildProjectFullPath = None
+VCToolsVersion = None
+VSCMD_ARG_VCVARS_SPECTRE = None
+WindowsSdkDir = None
+WindowsSDKVersion = None
+LIB = None
+PATH = Some(C:\Web3\centralized-exchange\target\debug\deps;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\WSL\;C:\Users\jhavi\.cargo\bin;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\;C:\Users\jhavi\AppData\Local\Programs\Python\Launcher\;C:\Users\jhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\jhavi\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\jhavi\GitHubDesktop\bin;C:\Users\jhavi\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jhavi\AppData\Roaming\npm;;C:\Users\jhavi\.bun\bin;C:\Users\jhavi\AppData\Local\PowerToys\DSCModules\;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+INCLUDE = None
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+VCINSTALLDIR = None
+VSTEL_MSBuildProjectFullPath = None
+VCToolsVersion = None
+VSCMD_ARG_VCVARS_SPECTRE = None
+WindowsSdkDir = None
+WindowsSDKVersion = None
+LIB = None
+PATH = Some(C:\Web3\centralized-exchange\target\debug\deps;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\WSL\;C:\Users\jhavi\.cargo\bin;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\;C:\Users\jhavi\AppData\Local\Programs\Python\Launcher\;C:\Users\jhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\jhavi\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\jhavi\GitHubDesktop\bin;C:\Users\jhavi\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jhavi\AppData\Roaming\npm;;C:\Users\jhavi\.bun\bin;C:\Users\jhavi\AppData\Local\PowerToys\DSCModules\;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+INCLUDE = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+CC_PREFER_CLANG_CL_OVER_MSVC = None
+VCINSTALLDIR = None
+VSTEL_MSBuildProjectFullPath = None
+VCToolsVersion = None
+VSCMD_ARG_VCVARS_SPECTRE = None
+WindowsSdkDir = None
+WindowsSDKVersion = None
+LIB = None
+PATH = Some(C:\Web3\centralized-exchange\target\debug\deps;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\WSL\;C:\Users\jhavi\.cargo\bin;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\;C:\Users\jhavi\AppData\Local\Programs\Python\Launcher\;C:\Users\jhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\jhavi\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\jhavi\GitHubDesktop\bin;C:\Users\jhavi\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jhavi\AppData\Roaming\npm;;C:\Users\jhavi\.bun\bin;C:\Users\jhavi\AppData\Local\PowerToys\DSCModules\;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+INCLUDE = None
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+VCINSTALLDIR = None
+VSTEL_MSBuildProjectFullPath = None
+VCToolsVersion = None
+VSCMD_ARG_VCVARS_SPECTRE = None
+WindowsSdkDir = None
+WindowsSDKVersion = None
+LIB = None
+PATH = Some(C:\Web3\centralized-exchange\target\debug\deps;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\WSL\;C:\Users\jhavi\.cargo\bin;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\;C:\Users\jhavi\AppData\Local\Programs\Python\Launcher\;C:\Users\jhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\jhavi\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\jhavi\GitHubDesktop\bin;C:\Users\jhavi\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jhavi\AppData\Roaming\npm;;C:\Users\jhavi\.bun\bin;C:\Users\jhavi\AppData\Local\PowerToys\DSCModules\;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+INCLUDE = None
+ARFLAGS = None
+HOST_ARFLAGS = None
+ARFLAGS_x86_64_pc_windows_msvc = None
+ARFLAGS_x86_64-pc-windows-msvc = None
+CC_PREFER_CLANG_CL_OVER_MSVC = None
+VCINSTALLDIR = None
+VSTEL_MSBuildProjectFullPath = None
+VCToolsVersion = None
+VSCMD_ARG_VCVARS_SPECTRE = None
+WindowsSdkDir = None
+WindowsSDKVersion = None
+LIB = None
+PATH = Some(C:\Web3\centralized-exchange\target\debug\deps;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\WSL\;C:\Users\jhavi\.cargo\bin;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhavi\AppData\Local\Programs\Python\Python312\;C:\Users\jhavi\AppData\Local\Programs\Python\Launcher\;C:\Users\jhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\jhavi\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\jhavi\GitHubDesktop\bin;C:\Users\jhavi\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jhavi\AppData\Roaming\npm;;C:\Users\jhavi\.bun\bin;C:\Users\jhavi\AppData\Local\PowerToys\DSCModules\;C:\Users\jhavi\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+INCLUDE = None
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\atlmfc\lib\x64
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=C:\Web3\centralized-exchange\target\debug\build\zstd-sys-c8340337eaf0b9e8\out
+cargo:root=C:\Web3\centralized-exchange\target\debug\build\zstd-sys-c8340337eaf0b9e8\out
+cargo:include=C:\Users\jhavi\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zstd-sys-2.1.2+zstd.1.5.7\zstd/lib
