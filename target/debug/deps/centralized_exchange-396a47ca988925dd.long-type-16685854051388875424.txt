@@ -1,0 +1,2 @@
+fn(actix_web::web::Json<SignupInput>) -> impl std::future::Future<Output = impl Responder> {sign_up}
+fn(actix_web::web::Json<SignupInput>) -> impl std::future::Future<Output = impl Responder> {sign_up}: HttpServiceFactory

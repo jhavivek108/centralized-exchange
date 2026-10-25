@@ -1,0 +1,1 @@
+fn(Json<SignupInput>) -> impl std::future::Future<Output = impl Responder> {sign_up}: HttpServiceFactory
