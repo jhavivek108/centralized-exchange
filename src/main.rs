@@ -16,14 +16,36 @@ struct SignupResponse {
     message: String
 }
 
+
 #[post("/signup")]
 async fn sign_up(body: Json<SignupInput>, app_state: web::Data<AppState>) -> impl Responder {
-    println!("{}", body.username);
-    println!("{}", body.password);
-    println!("{})", app_state.users.len());
+    let mut users = app_state.users.lock().unwrap();
+    let mut user_index = app_state.user_index.lock().unwrap();
 
-    HttpResponse::Ok().body("Hello World!")
+    let user_found = users.iter().find(|u| u.username == body.username);
+
+    if user_found.is_none() {
+        *user_index += 1;
+
+        users.push(User {
+            id: user_index.clone(),
+            username: body.username.clone(),
+            password: body.password.clone()
+        });
+
+        println!("{}", users.len());
+        drop(users);
+
+        HttpResponse::Ok().json(SignupResponse {
+            message: String::from("Successfully signed up")
+        })
+    } else {
+        HttpResponse::Unauthorized().json(SignupResponse {
+            message: String::from("User already exists")
+        })
+    }
 }
+
 
 struct AppState {
     user_index: Mutex<u32>,
